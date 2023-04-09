@@ -12,7 +12,6 @@ function Card(props) {
         <p className='cardDescription'>Home: {cellPhone[0]}</p>
         <p className='cardDescription'>Office: {cellPhone[1]}</p>
         <p className='cardFooter'>{date + "/" + month + "/" + year}</p>
-
     </div>
 }
 
