@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './components/Card';
 import CardData from './cardItem.json';
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid';  // to generate unique id
 
 function App() {
 
@@ -13,7 +13,20 @@ function App() {
 
     return <div>
         <h1 className="headerStyle">Welcome</h1>
-        {CardData.map((item) => <Card key={uuidv4()} title={item.title} description={item.description} />)}
+        {CardData.map((item) =>
+            <Card key={uuidv4()}
+                title={item.title}
+                description={item.description}
+                cellPhone={
+                    item.phones.map((phone, index) =>
+                        <div key={index}>
+                            {phone.home}
+                            {phone.office}
+                        </div>
+                    )
+                }
+            />)
+        }
     </div>
 }
 
