@@ -4,8 +4,9 @@ const year = new Date().getFullYear();
 
 
 function Card(props) {
-    const { title, description, cellPhone } = props;
+    const { title, description, cellPhone, picture } = props;
     return <div className='card'>
+        <img className='cardItemPic' src={picture} alt="Image loading..."/>
         <h3 className='cardTitle'>{title}</h3>
         <p className='cardDescription'>{description}</p>
         <p className='cardDescription'>Home: {cellPhone[0]}</p>

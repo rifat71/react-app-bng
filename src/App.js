@@ -25,6 +25,7 @@ function App() {
                         </div>
                     )
                 }
+                picture={item.picture}
             />)
         }
     </div>

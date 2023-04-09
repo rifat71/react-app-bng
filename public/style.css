@@ -12,13 +12,18 @@
 }
 
 .card{
-    background: #ffda77;
+    background: #e4e2dd;
     box-shadow: 2px 4px 4px gray;
     border-radius: 10 px;
     margin: 10px;
     padding: 10px;
     width: 390px;
     display: inline-block;
+}
+
+.cardItemPic{
+    width: 100%;
+    height: 200px;
 }
 
 .cardTitle{
