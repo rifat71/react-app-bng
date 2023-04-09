@@ -1,14 +1,18 @@
 import React from 'react';
 import Card from './components/Card';
-import CardItem from './cardItem.json'
+import CardData from './cardItem.json'
 
 function App() {
 
-    return <div>
+    // using for loop to add data
+    // let items = [];
+    // for(let i=0; i<CardData.length;i++){
+    //     items.push(<Card title={CardData[i].title} description={CardData[i].description}/>);
+    // }
+
+    return <div> 
         <h1 className="headerStyle">Welcome</h1>
-        <Card title={CardItem[0].title} description={CardItem[0].description}/>
-        <Card title={CardItem[1].title} description={CardItem[1].description}/>
-        <Card title={CardItem[2].title} description={CardItem[2].description}/>
+        {CardData.map((item, index) => <Card key={index} title={item.title} description={item.description} />)}
     </div>
 }
 
