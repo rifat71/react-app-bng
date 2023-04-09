@@ -5,7 +5,6 @@ const year = new Date().getFullYear();
 
 function Card(props) {
     const { title, description, cellPhone } = props;
-    console.log(props);
     return <div className='card'>
         <h3 className='cardTitle'>{title}</h3>
         <p className='cardDescription'>{description}</p>
