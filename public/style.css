@@ -41,3 +41,24 @@
     text-align: center;
     font-weight: bold;
 }
+
+#social_icons {
+    padding: .5em;
+    line-height: 1.22;
+    float:left;
+    vertical-align:bottom;
+}
+
+.icon_text{
+    text-align: justify;
+    text-align: center;
+    margin-inline-start: 5px;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.icon_div{
+    text-align: justify;
+    text-align: center;
+    margin-bottom: 5px;
+}

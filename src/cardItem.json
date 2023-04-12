@@ -1,7 +1,7 @@
 [
     {
-        "title": "Itme 1",
-        "description": "First Item",
+        "title": "Shundarban",
+        "description": "10000 Taka/person",
         "phones": [
             {"home": "01776-888888"},
             {"office": "01776-111111"}
@@ -9,8 +9,8 @@
         "picture": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image001-1024x682.jpg"
     },
     {
-        "title": "Itme 2",
-        "description": "Second Item",
+        "title": "Bandarban",
+        "description": "9000 Taka/person",
         "phones": [
             {"home": "01776-888888"},
             {"office": "01776-111111"}
@@ -18,8 +18,8 @@
         "picture": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image003.jpg"
     },
     {
-        "title": "Itme 3",
-        "description": "Third Item",
+        "title": "Sajek",
+        "description": "5000 Taka/person",
         "phones": [
             {"home": "01776-888888"},
             {"office": "01776-111111"}
@@ -27,8 +27,8 @@
         "picture": "https://nomadparadise.com/wp-content/uploads/2021/04/bangladesh-places-09b-1024x683.jpg.webp"
     },
     {
-        "title": "Itme 4",
-        "description": "Fourth Item",
+        "title": "Old Dhaka",
+        "description": "2000 Taka/person",
         "phones": [
             {"home": "01776-888888"},
             {"office": "01776-111111"}
@@ -36,8 +36,8 @@
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZUo0vKQnC45eAYsDdEHUj1J6lHjYW1GJRW0nX_w5MutD1W1rWQnSU4LlCGsdG2M7zt0Y&usqp=CAU"
     },
     {
-        "title": "Itme 5",
-        "description": "Fifth Item",
+        "title": "Cox's Bazar",
+        "description": "8000 Taka/person",
         "phones": [
             {"home": "01776-888888"},
             {"office": "01776-111111"}
@@ -45,8 +45,8 @@
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPiSuOdFgPYVdVAdfjQn9bKFQTIdvNF-K7wQ&usqp=CAU"
     },
     {
-        "title": "Itme 6",
-        "description": "Sixth Item",
+        "title": "Rangamati",
+        "description": "6000 Taka/person",
         "phones": [
             {"home": "01776-888888"},
             {"office": "01776-111111"}
