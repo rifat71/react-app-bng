@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Button } from 'react-bootstrap'
 
 export default class STATE extends Component {
 
@@ -29,8 +30,8 @@ export default class STATE extends Component {
             <div>
                 <p>{message}</p>
                 <h1> Count: {count} </h1>
-                <button className='button1' onClick={this.increment}>+</button>
-                <button className='button1' onClick={this.decrement} disabled={count === 0 ? true : false}>-</button>
+                <Button className='button' onClick={this.increment}>Plus (+)</Button>
+                <Button className='button' onClick={this.decrement} disabled={count === 0 ? true : false}>Minus (-)</Button>
             </div>
         )
     }

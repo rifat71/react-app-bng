@@ -64,7 +64,7 @@
     margin-bottom: 5px;
 }
 
-.button1{
+.button{
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -72,5 +72,4 @@
     color: white;
     margin: 10px;
     font-size: 2rem;
-    width: 80px;
 }
